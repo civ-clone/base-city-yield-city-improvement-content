@@ -10,6 +10,8 @@ export class CityImprovementContent extends Unhappiness {
     super(value, cityImprovement.id());
 
     this.#cityImprovement = cityImprovement;
+
+    this.addKey('cityImprovement');
   }
 
   cityImprovement(): CityImprovement {

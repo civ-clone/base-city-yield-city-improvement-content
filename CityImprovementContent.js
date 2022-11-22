@@ -20,6 +20,7 @@ class CityImprovementContent extends Unhappiness_1.default {
         super(value, cityImprovement.id());
         _CityImprovementContent_cityImprovement.set(this, void 0);
         __classPrivateFieldSet(this, _CityImprovementContent_cityImprovement, cityImprovement, "f");
+        this.addKey('cityImprovement');
     }
     cityImprovement() {
         return __classPrivateFieldGet(this, _CityImprovementContent_cityImprovement, "f");
